@@ -14,3 +14,7 @@ spec:
     path: rnd/app-1
     repoURL: https://github.com/coffeemoney/my-own-helm-chart.git
     targetRevision: HEAD
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
