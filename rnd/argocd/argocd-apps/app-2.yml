@@ -12,4 +12,5 @@ spec:
   project: default
   source:
     path: rnd/argocd/app-2
+    repoURL: https://github.com/coffeemoney/my-own-helm-chart.git
     targetRevision: HEAD
