@@ -11,6 +11,5 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: argocd/my-apps/app-1
-    repoURL: https://gitlab.com/ayush-sharma/example-assets.git
+    path: rnd/argocd/app-1
     targetRevision: HEAD
